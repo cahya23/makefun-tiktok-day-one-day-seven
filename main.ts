@@ -1,8 +1,9 @@
 // Entry program for the make.fun "Day one, day seven" TikTok bounty.
 // Node 22, standard library only. The entry itself is the video: this
 // program only hands the grader the video's address, by copying
-// VIDEO.json from the repository into the output directory. Nothing else
-// is written, and nothing about the video is scored from here — the
+// VIDEO.json from the repository into the output directory, byte for
+// byte, so the two grader runs always write identical output. Nothing
+// else is written, and nothing about the video is scored from here — the
 // house reads the video's views and interactions from TikTok directly.
 //
 // Local run (mirrors the grader):
